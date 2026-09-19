@@ -1,0 +1,33 @@
+body{
+    font-family: "Segoe UI",sans-serif;
+    background:#f8f9fa;
+}
+
+a{
+    text-decoration:none;
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.btn{
+    border-radius:10px;
+}
+
+input{
+    border-radius:10px!important;
+}
+
+textarea{
+    border-radius:10px!important;
+}
+
+img{
+    border-radius:10px;
+}
